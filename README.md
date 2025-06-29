@@ -1,42 +1,65 @@
-# 📚 Book Recommendation System – AI Project
-This project is a basic AI-powered book recommendation system built using collaborative filtering. It suggests books similar to a title provided by the user, based on patterns in user rating data.
+# AI Projects Collection by Shaswat Kumar
 
----
-## 💡 How It Works:
-- Uses a dataset of books, users, and user ratings  
-- Builds a user-item matrix from ratings  
-- Computes similarity between books using cosine similarity  
-- Returns top 5 similar books for any given title  
-
----
-## 🔧 Technologies Used
-- Python  
-- Pandas  
-- Scikit-learn  
-- Google Colab  
----
-## 📁 Dataset
-The dataset includes:
-- `Books.csv` — Book metadata (title, author, etc.)  
-- `Ratings.csv` — User ratings for books  
-- `Users.csv` — User info (not used in this model)  
----
-## 🚀 How to Use
+## 📚 1. Book Recommendation System
+### 🔧 Technologies Used
+- Python
+- Pandas
+- Scikit-learn
+- Google Colab
+### 📁 Dataset: `data.zip`
+Includes:
+- `Books.csv` — Book metadata  
+- `Ratings.csv` — User ratings  
+- `Users.csv` — User info (not used in model)
+- 
+### 🚀 How to Use
 1. Open `book.ipynb` in Google Colab  
-2. Upload the dataset ZIP file when prompted  
+2. Upload `data.zip` when prompted  
 3. Run all cells  
-4. Enter a book title (e.g. `"The Da Vinci Code"`) when asked  
-5. Get 5 recommended books based on rating similarity  
+4. Enter a book title (e.g. `"The Da Vinci Code"`)  
+5. Get top 5 similar book recommendations
+
+### 🔍 Example Prompts
+- The Da Vinci Code  
+- Wild Animus  
+- The Lovely Bones: A Novel  
+- The Red Tent  
+- A Time to Kill
 
 ---
-## 🔍 Example Prompts
 
-Try book titles like:
+## 🎓 2. Student Performance Predictor
+A  model that predicts a student's average final score based on their background and input test scores.
+### 🔧 Technologies Used
+- Python
+- Pandas
+- Scikit-learn
+- Google Colab
+### 📁 Dataset: `data2.zip`
+Includes:
+- `StudentsPerformance.csv` — Student data with exam scores and demographics
 
-- The Da Vinci Code  
-- The Lovely Bones: A Novel  
-- The Red Tent (Bestselling Backlist)  
-- Wild Animus  
-- A Time to Kill  
+### 🚀 How to Use
+1. Open `student.ipynb` in Google Colab  
+2. Upload `data2.zip` when prompted  
+3. Run all cells  
+4. Enter the student's details and exam scores  
+5. Receive predicted average score out of 100
+
+### 📥 Input Example
+- Gender: female  
+- Parental education: bachelor's degree  
+- Test prep: completed  
+- Math: 75  
+- Reading: 80  
+- Writing: 78  
+
+---
+
+## ✅ Notes
+
+- Both projects use small datasets for demo purposes — accuracy is limited but the systems are functional.
+- Designed for clarity, learning, and easy extension.
+
 ---
 
