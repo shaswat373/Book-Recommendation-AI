@@ -1,4 +1,4 @@
-# AI Projects Collection by Shaswat Kumar
+# AI Projects by Shaswat Kumar
 
 ## 📚 1. Book Recommendation System
 ### 🔧 Technologies Used
