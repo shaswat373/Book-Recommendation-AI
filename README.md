@@ -5,12 +5,7 @@
 - Pandas
 - Scikit-learn
 - Google Colab
-### Dataset: `data.zip`
-Includes:
-- `Books.csv` — Book metadata  
-- `Ratings.csv` — User ratings  
-- `Users.csv` — User info (not used in model)
-- 
+
 ###  How to Use
 1. Open `book.ipynb` in Google Colab  
 2. Upload `data.zip` when prompted  
