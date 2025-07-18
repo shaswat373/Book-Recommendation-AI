@@ -1,5 +1,5 @@
 
-## Book Recommendation System
+## Book Recommendation System (Machine Learning)
 ### 🔧 Technologies Used
 - Python
 - Pandas
